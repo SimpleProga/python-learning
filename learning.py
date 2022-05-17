@@ -1,3 +1,3 @@
-def sum(a,b):
-    return a + b
-print(sum(1,2))
+str_lst = ['1', '2', '3']
+int_lst = [int(x) for x in str_lst]
+print (int_lst)
